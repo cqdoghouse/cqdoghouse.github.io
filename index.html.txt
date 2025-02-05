@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CQ DOGHOUSE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #222;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .logo {
+            width: 300px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ffcc00;
+            color: black;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .menu-item {
+            background: #333;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .hotdog-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #39ff14;
+        }
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="CQ Doghouse Logo.png" alt="CQ DOGHOUSE Logo" class="logo">
+        <h1>Welcome to CQ DOGHOUSE</h1>
+        <h2>Hot Dogs Done Right!</h2>
+        
+        <a href="https://squareup.com/store/cqdoghouse" class="btn">Order Now</a>
+        
+        <h2>Our Menu</h2>
+        <div class="menu-item">Classic Hot Dog - $5</div>
+        <div class="menu-item">Chili Cheese Dog - $6</div>
+        <div class="menu-item">Bacon Wrapped Dog - $7</div>
+        
+        <img src="hotdog1.jpg" alt="Delicious Hot Dog" class="hotdog-img">
+        <img src="hotdog2.jpg" alt="Another Delicious Hot Dog" class="hotdog-img">
+        
+        <h2>Find Us</h2>
+        <p>📍 Your Location Here</p>
+        <p>📞 Call us at (123) 456-7890</p>
+    </div>
+</body>
+</html>
